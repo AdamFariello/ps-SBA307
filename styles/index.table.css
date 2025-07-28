@@ -1,0 +1,11 @@
+#tableDiv {
+    display:flex;
+    justify-content: center;
+}
+#table {
+    color: snow;
+    border: black 1px; /*TODO: Fix*/
+}
+td {
+    text-align: left;
+}
