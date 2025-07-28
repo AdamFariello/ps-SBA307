@@ -1,0 +1,13 @@
+#navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border: black 10px; /*TODO: make it actually work*/
+    background-color: #7400B8;
+}
+.navbarButton {
+    width: 20%;
+    margin-left:10px;
+    margin-right:10px;
+
+}
