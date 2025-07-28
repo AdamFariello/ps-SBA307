@@ -1,11 +1,22 @@
-#tableDiv {
+.tableDiv {
     display:flex;
     justify-content: center;
 }
-#table {
+.table {
     color: snow;
     border: black 1px; /*TODO: Fix*/
 }
-td {
+
+#commandTable tr th:first-child {
     text-align: left;
+    width: 80px;
+}
+
+#leaderboardTable tr td:first-child {
+    width: 100px;
+    text-align: left;
+}
+#leaderboardTable tr td:last-child {
+    width: 100px;
+    text-align: right;
 }
