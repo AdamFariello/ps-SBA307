@@ -1,0 +1,19 @@
+#textareaID {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+#buttonID {
+    background-color:aqua
+}
+#buttonID:hover {
+	background-color: green;
+}
