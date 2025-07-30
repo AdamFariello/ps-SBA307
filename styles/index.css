@@ -1,33 +1,41 @@
 .stepBody {
     border: 1px solid black;
-	width: 80%;
+	width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .stepBox {
-    border: 1px solid black;
-	width: 20%;
+    /*TODO: Figure out if to include second border*/
+	width: 15%;
     display:block;
-    justify-content: left;
+    margin-right:auto;
     word-wrap: break-word;
     text-align: center;
 }
 
 .stepInsturctions {
     word-wrap: break-word;
+    text-align: left;
 }
 
 .img-container {
-    max-width: 100%;
-    height:auto;
-    width: 10%;
-
-    background-image: url("./gifs/TODO_REPLACE.gif");
+    /*TODO: highlight in notes need of '..'*/
+    background-image: url("../gifs/TODO_REPLACE.gif");
+    /*background-image: url("../gifs/test.jpg");*/ 
     background-size:cover;
+    background-position: center center;
+
     border-radius: 10px;
-    
-    margin: 8%;
     border: black 1px;
+
+    /*max-width: 100%;*/
+    width:150px;
+    height:150px;
+
+    justify-content: right;
+    margin-left: auto;
 }
