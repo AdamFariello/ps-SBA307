@@ -1,11 +1,13 @@
 .stepBody {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 	width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+
+    background-color: RGB(1, 11, 19, 0.25);
 }
 
 .stepBox {
