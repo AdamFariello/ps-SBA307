@@ -21,6 +21,12 @@
 <body>
     <div id="navbar">
         <button onclick="window.location.href='./index.html'" class="navbarButton">Tutorial</button>
+        <select class="navbarButton" name="Sections" 
+                onchange="location = this.value">
+            <option value="#Part0">Part 0</option>
+            <option value="#Part1">Part 1</option>
+        </select>
+        
         <button onclick="window.location.href='./contact.html'" class="navbarButton">Contact me</button>
         <button onclick="window.location.href='./leaderboards.html'" class="navbarButton">Leaderboards</button>
     </div>
@@ -43,7 +49,7 @@
     </table></div>
     <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
     
-    <h1>Part 0: Setting up the environment</h1>
+    <h1 id="Part0">Part 0: Setting up the iso</h1>
     <div class="stepBody">
         <div class="stepBox">
             <h3>Step 1: Download the iso</h3>
@@ -57,6 +63,9 @@
 		    <!--s<img src="/gifs/TODO_REPLACE.gif" alt="step1: download iso">-->
 	    </div>
     </div>
+    <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
+
+    <h1 id="Part1">Part 1: Setting up the chroot</h1>
 
 </body>
 </html>
