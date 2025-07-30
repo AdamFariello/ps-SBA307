@@ -33,9 +33,13 @@
     border: black 1px;
 
     /*max-width: 100%;*/
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
 
     justify-content: right;
     margin-left: auto;
+}
+
+h1 {
+    text-align: center;
 }
