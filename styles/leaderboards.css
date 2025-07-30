@@ -15,3 +15,7 @@
 #buttonID:hover {
 	background-color: green;
 }
+
+a:visited {
+    color:lightpink;
+}
