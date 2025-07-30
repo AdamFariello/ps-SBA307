@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
 }
-#textareaID {
+#sendQuestion {
     display: flex;
     justify-content: center;
 }
 textarea {
-    width: 50%;
-    height: 100px;
+    width: 75%;
+    height: 150px;
+
 }
 
 #buttonDiv {
@@ -16,7 +17,8 @@ textarea {
     justify-content: center;
 }
 #buttonID {
-    background-color:aqua
+    background-color:aqua;
+    transition-property: background-color;
 }
 #buttonID:hover {
 	background-color: green;

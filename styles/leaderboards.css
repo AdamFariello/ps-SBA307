@@ -1,0 +1,17 @@
+.submission {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: center;
+}
+
+#buttonID {
+    background-color:aqua;
+    transition-property: background-color;
+}
+#buttonID:hover {
+	background-color: green;
+}
