@@ -37,6 +37,12 @@ https://coolors.co/palette/7400b8-6930c3-5e60ce-5390d9-4ea8de-48bfe3-56cfe1-64df
     </div>
     <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
 
+    <h1>Tutorial:</h1>
+    <div id="tutorialBox">
+        <p style="text-align: center;">How to chroot into your machine from a live environment</p>
+    </div>
+    <div style="display:inline-block; width:100%; height:30px;" class="spacer"><!--Spacer--></div>
+
     <div class="tableDiv"><table class="table" id="commandTable">
         <!--TODO: Make right side of table much wider-->
         <tr>
@@ -51,8 +57,12 @@ https://coolors.co/palette/7400b8-6930c3-5e60ce-5390d9-4ea8de-48bfe3-56cfe1-64df
             <td>chroot</td>
             <td><u>CH</u>anges into directory, and defines it as the <u>ROOT</u></td>
         </tr>
+        <tr>
+            <td>fdisk</td>
+            <td>Lists the devices/<u>disks</u> connected to your machine</td>
+        </tr>
     </table></div>
-    <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
+    <div style="display:inline-block; width:100%; height:30px;" class="spacer"><!--Spacer--></div>
     
     <h1 id="Part0">Part 0: Setting up the iso</h1>
     <div class="stepBody">
@@ -76,14 +86,27 @@ https://coolors.co/palette/7400b8-6930c3-5e60ce-5390d9-4ea8de-48bfe3-56cfe1-64df
         <div class="stepInsturctions">
             <p>To make the usb bootable, first we need to know what device we're targeting</p>
             <p>There are multiple ways of doing that, here I'll be using</p>
-            <p><code>sudo fdisk -l</code></p>
+            <p><code><b>sudo fdisk -l</b></code></p>
         </div>
 
         <div class="img-container" id="img-container2"></div>
     </div>
-    <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
+    <div style="display:inline-block; width:100%; height:30px;" class="spacer"><!--Spacer--></div>
 
     <h1 id="Part1">Part 1: Setting up the chroot</h1>
+    <div class="stepBody">
+        <div class="stepBox">
+            <h3>Step 1: Booting into the live environment</h3>
+        </div>
 
+        <div class="stepInsturctions">
+            <p>First, turn off your computer</p>
+            <p>Next, plug the usb drive into the computer</p>
+            <p>Then press the power button back on, and while it's booting up, hold down either F12, F2, or the ESCAPE key</p>
+        </div>
+
+        <div class="img-container" id="img-container3"></div>
+    </div>
+    <div style="display:inline-block; width:100%; height:5px;" class="spacer"><!--Spacer--></div>
 </body>
 </html>
