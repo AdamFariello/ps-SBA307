@@ -11,6 +11,7 @@
 #buttonID {
     background-color:aqua;
     transition-property: background-color;
+    width: 10%;
 }
 #buttonID:hover {
 	background-color: green;
